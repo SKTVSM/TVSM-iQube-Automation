@@ -22,8 +22,10 @@ public class baseTest {
 
 @BeforeTest
     public void setup() throws IOException {
+
+    System.out.println("the path is "+System.getProperty("user.dir"));
         if (driver==null) {
-            FileReader fr = new FileReader("C:\\Users\\Sachin.Kadlag\\IdeaProjects\\iQube\\TVS iQube Automation\\src\\test\\resources\\configflie\\properties");
+            FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configflie\\properties");
             prop.load(fr);
         }
         if (prop.getProperty("browser").equalsIgnoreCase("chrome")) {
