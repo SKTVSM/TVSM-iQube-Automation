@@ -5,20 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import base.baseTest;
 
+import java.sql.Time;
+
 public class Testcase1 extends baseTest {
 
    @Test
     public static void Logintest(){
 
-
-        WebElement loginbuttion = driver.findElement(By.xpath("//i[@title='login']"));
+        WebElement loginbuttion = driver.findElement(By.xpath(Loc.getProperty("loginbuttion")));
         loginbuttion.click();
 
-        WebElement mobilenumber= driver.findElement(By.id("LoginMobileNumber"));
+        WebElement mobilenumber= driver.findElement(By.id(Loc.getProperty("mobilenumber")));
         mobilenumber.sendKeys("9175506455");
 
-        WebElement loginviaOTP = driver.findElement(By.id("btnLogin"));
-        loginviaOTP.click();
+        WebElement loginviaOTPCTA = driver.findElement(By.id(Loc.getProperty("loginviaOTPCTA")));
+        loginviaOTPCTA.click();
 
     }
 

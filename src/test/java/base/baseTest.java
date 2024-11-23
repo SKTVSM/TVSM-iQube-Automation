@@ -17,16 +17,23 @@ public class baseTest {
 
     public static WebDriver driver;
     public static Properties prop= new Properties();
+    public static Properties Loc= new Properties();
+
 
     public static FileReader fr;
+    public static FileReader fr1;
+
 
 @BeforeTest
     public void setup() throws IOException {
 
     System.out.println("the path is "+System.getProperty("user.dir"));
         if (driver==null) {
+
             FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configflie\\properties");
+            FileReader fr1 = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configflie\\Locator.propertis");
             prop.load(fr);
+            Loc.load(fr1);
         }
         if (prop.getProperty("browser").equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();

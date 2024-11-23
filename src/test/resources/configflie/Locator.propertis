@@ -1,0 +1,3 @@
+loginbuttion= //i[@title='login']
+mobilenumber=LoginMobileNumber
+loginviaOTPCTA=btnLogin
