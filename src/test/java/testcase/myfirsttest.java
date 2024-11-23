@@ -16,7 +16,8 @@ public class myfirsttest {
         driver.get("https://uat-www.tvsmotor.net/electric-vehicle/tvs-iqube");
         System.out.println("site load successfully");
 
-        driver.quit();
+        driver.close();
+
 
     }
 }
