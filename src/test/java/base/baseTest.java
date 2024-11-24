@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import java.io.FileNotFoundException;
@@ -20,7 +22,7 @@ public class baseTest {
 
     public static FileReader fr;
 
-@BeforeTest
+@BeforeMethod
     public void setup() throws IOException {
 
     System.out.println("the path is "+System.getProperty("user.dir"));
@@ -44,7 +46,7 @@ public class baseTest {
 
 
     }
-   @AfterTest
+   @AfterMethod
     public static void teardown(){
         driver.close();
         System.out.println("Closing Browser Buccessfully");

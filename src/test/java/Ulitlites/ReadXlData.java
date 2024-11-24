@@ -1,21 +1,21 @@
 package Ulitlites;
 
 import org.apache.poi.ss.usermodel.*;
+import org.testng.annotations.DataProvider;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.Method;
 
 public class ReadXlData {
 
-    public static void main(String[] args) throws IOException {
-        ReadXlData read = new ReadXlData();
-        System.out.println(read.GetData("Login"));
+    @DataProvider(name="sheetdata")
 
-    }
-    public String [][] GetData (String excelsheetname) throws IOException {
+    public String [][] GetData (Method m) throws IOException {
 
+        String excelsheetname = m.getName();
         File f = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\Testdata.xlsx");
         FileInputStream fis = new FileInputStream(f);
         Workbook wb = WorkbookFactory.create(fis);
