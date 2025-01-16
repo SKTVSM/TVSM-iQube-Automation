@@ -8,7 +8,8 @@ public class TC_001_Clickonlogin extends baseTest {
     @Test
     public void clickingonloginCTA(){
         HomePage hm= new HomePage(driver);
-        hm.clicklogin();
+        logger.info(" clicking on home page ");
+        hm.clickOnBookNow();
     }
 
 
