@@ -90,3 +90,11 @@
 2025-01-17 19:29:05 INFO  TC_002_Book_Now:24 - click on next CTA 
 2025-01-17 19:29:15 INFO  TC_002_Book_Now:21 - selecting variant and colour
 2025-01-17 19:29:17 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 19:45:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\master.xml
+
+2025-01-17 19:46:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\master.xml
+
+2025-01-17 19:47:10 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 19:47:13 INFO  TC_002_Book_Now:24 - click on next CTA 

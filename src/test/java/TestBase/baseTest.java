@@ -13,23 +13,34 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 public class baseTest {
 
     public WebDriver driver;
+    public Properties p;
 
     public Logger logger; //log variable
 
 
     @Parameters({"os","browser"})
     @BeforeClass
-    public void setup(String os,String br){
+    public void setup(String os,String br) throws IOException {
+
+        //for loading propertyfile
+
+        FileReader  file = new FileReader("./src/test/resources/configflie/properties");
+         p = new Properties();
+         p.load(file);
 
         logger= LogManager.getLogger(this.getClass());
 
 
-        //passing brower from xml file for excution
+        //Passing browser value  from xml file for execution
         switch (br.toLowerCase()) {
 
             case "chrome":driver= new ChromeDriver();break;
@@ -45,7 +56,7 @@ public class baseTest {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://www.tvsmotor.com/electric-scooters/tvs-iqube");
+        driver.get(p.getProperty("TestURL")); //reading url value from property file
 
     }
 
