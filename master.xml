@@ -5,9 +5,9 @@
   <test thread-count="5" name="Test">
   
   	<parameter name="os" value="Windows" />
-  	<parameter name="browser"  value="firefox"/>  
+  	<parameter name="browser"  value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegistrationTest"/>
+      <class name="testcase.TC_002_Book_Now"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

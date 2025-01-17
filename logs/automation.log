@@ -70,3 +70,23 @@
 2025-01-17 09:42:54 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
 2025-01-17 09:43:13 INFO  TC_002_Book_Now:21 - selecting variant and colour
 2025-01-17 09:43:15 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 19:23:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 19:24:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\master.xml
+
+2025-01-17 19:25:23 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 19:25:25 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 19:27:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\master.xml
+
+2025-01-17 19:27:41 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 19:27:43 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 19:28:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\crossbrowsertests.xml
+
+2025-01-17 19:29:03 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 19:29:05 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 19:29:15 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 19:29:17 INFO  TC_002_Book_Now:24 - click on next CTA 
