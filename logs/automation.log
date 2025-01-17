@@ -1,26 +1,72 @@
-2025-01-16 21:25:09 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 08:52:59 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2025-01-16 21:25:12 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
-2025-01-16 21:25:12 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
-2025-01-16 21:26:38 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 08:53:01 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 08:53:01 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:12:31 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2025-01-16 21:26:39 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
-2025-01-16 21:26:39 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
-2025-01-16 21:28:22 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 09:12:32 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:12:32 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:13:21 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2025-01-16 21:28:23 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
-2025-01-16 21:28:23 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
-2025-01-16 21:30:36 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 09:13:21 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:13:21 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:16:14 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2025-01-16 21:30:36 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
-2025-01-16 21:30:36 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
-2025-01-16 22:32:12 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 09:16:14 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:16:14 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:16:35 INFO  TC_002_Book_Now:20 - selecting variant and colour
+2025-01-17 09:20:46 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2025-01-16 22:32:13 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
-2025-01-16 22:32:13 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
-2025-01-16 22:32:34 INFO  TC_001_Clickonlogin:11 -  clicking on home page 
+2025-01-17 09:20:47 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:20:47 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:21:06 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:27:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:27:01 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:27:01 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:27:20 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:32:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:32:17 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:32:17 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:32:40 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:34:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:34:20 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:34:20 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:34:38 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:37:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:37:49 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:37:49 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:38:07 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:39:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:39:50 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:39:50 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:40:07 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:40:10 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 09:41:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:41:11 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:41:11 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:41:29 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:41:32 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-17 09:42:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-01-17 09:42:54 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-17 09:42:54 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Sachin.Kadlag\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-17 09:43:13 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-17 09:43:15 INFO  TC_002_Book_Now:24 - click on next CTA 
