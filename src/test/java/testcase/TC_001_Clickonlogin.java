@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class TC_001_Clickonlogin extends baseTest {
 
-    @Test
+    @Test (groups = "Sanity")
     public void clickingonloginCTA(){
         HomePage hm= new HomePage(driver);
         logger.info(" clicking BOok Now on home page ");

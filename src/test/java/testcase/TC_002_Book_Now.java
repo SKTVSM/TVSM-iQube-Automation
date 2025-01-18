@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class TC_002_Book_Now extends baseTest {
 
-    @Test
+    @Test (groups= {"Regression","Sanity"})
     public void selectvarintandcolour() throws InterruptedException {
         HomePage hm= new HomePage(driver);
         System.out.println(driver.getCurrentUrl());
