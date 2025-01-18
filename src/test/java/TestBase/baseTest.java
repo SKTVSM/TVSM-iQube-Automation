@@ -70,6 +70,7 @@ public class baseTest {
     }
 
     @AfterClass (groups = {"Sanity","Regression"})
+
     public void teardown(){
 
         driver.quit();
@@ -91,16 +92,16 @@ public class baseTest {
     public String captureScreen(String tname) throws IOException {
 
         String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
 
-        try {
-            FileUtils.copyFile(source, new File(destination));
-        } catch (Exception e) {
-            e.getMessage();
-        }
-        return destination;
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+
+        String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\" + tname + "_" + timeStamp + ".png";
+        File targetFile=new File(targetFilePath);
+
+        sourceFile.renameTo(targetFile);
+
+        return targetFilePath;
 
     }
 

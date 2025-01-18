@@ -4,3 +4,17 @@
 2025-01-18 13:10:43 INFO  TC_002_Book_Now:21 - selecting variant and colour
 2025-01-18 13:10:46 INFO  TC_002_Book_Now:24 - click on next CTA 
 2025-01-18 13:11:18 INFO  TC_001_Clickonlogin:12 -  clicking BOok Now on home page 
+2025-01-18 17:56:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\Grouping.xml
+
+2025-01-18 18:00:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\Grouping.xml
+
+2025-01-18 18:00:53 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-18 18:00:55 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-18 18:02:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Sachin.Kadlag\IdeaProjects\iQube\TVS iQube Automation\Grouping.xml
+
+2025-01-18 18:03:15 INFO  TC_002_Book_Now:21 - selecting variant and colour
+2025-01-18 18:03:17 INFO  TC_002_Book_Now:24 - click on next CTA 
+2025-01-18 18:03:37 INFO  TC_001_Clickonlogin:12 -  clicking BOok Now on home page 
