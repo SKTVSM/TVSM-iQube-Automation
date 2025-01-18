@@ -1,5 +1,6 @@
 package PageObject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,12 +16,18 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//i[@title='login']") WebElement btn_Login ;
 
 
+
+
     public void clickOnBookNow(){
         Book_iQube.click();
     }
 
     public void clicklogin(){
-        btn_Login.click();
+
+       // ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",btn_Login);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();",btn_Login); //js Click
+
+       // btn_Login.click();
     }
 
 

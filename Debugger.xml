@@ -6,7 +6,7 @@
     <parameter name="os" value="Windows" />
   	<parameter name="browser"  value="chrome"/>
     <classes>
-      <class name="testcase.TC_002_Book_Now"/>
+      <class name="testcase.TC_001_Clickonlogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

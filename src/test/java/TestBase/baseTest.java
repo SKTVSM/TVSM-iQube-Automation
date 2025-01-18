@@ -8,10 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -27,9 +24,10 @@ public class baseTest {
     public Logger logger; //log variable
 
 
-    @Parameters({"os","browser"})
+
     @BeforeClass
-    public void setup(String os,String br) throws IOException {
+    @Parameters({"os","browser"})
+    public void setup(String os ,String br) throws IOException {
 
         //for loading propertyfile
 
@@ -38,6 +36,8 @@ public class baseTest {
          p.load(file);
 
         logger= LogManager.getLogger(this.getClass());
+
+        System.out.println(os); // pring os
 
 
         //Passing browser value  from xml file for execution
