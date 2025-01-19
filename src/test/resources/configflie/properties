@@ -1,3 +1,5 @@
 TestURL=https://www.tvsmotor.com/electric-scooters/tvs-iqube
+#Execution_env=local
+Execution_env=remote
 Password=8426
 MobileNumber=9175506455
